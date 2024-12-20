@@ -1,0 +1,16 @@
+body {
+    background-color: grey;
+}
+
+p {
+    /* color: rgb(128, 128, 128); */
+
+    color: #2ec4b6;
+
+    /* https://coolors.co/palettes/trending */
+
+    background-color: rgb(156, 89, 85);
+    opacity: 1;
+
+
+}

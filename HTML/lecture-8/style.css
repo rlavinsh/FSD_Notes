@@ -1,0 +1,27 @@
+body {
+    /* background-color: bisque; */
+    /* background-image: url('./images/nature1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed; */
+}
+
+p {
+    font-family: 'san-serif';
+    /* color: white; */
+    font-size: 25px;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+div {
+    text-transform: capitalize;
+    /* line-height: 1.5;
+    word-spacing: 5px;
+    letter-spacing: 7px;
+    text-decoration: none; */
+    width: 200px;
+    text-align: justify;
+
+}

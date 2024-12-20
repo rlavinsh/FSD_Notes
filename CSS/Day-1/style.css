@@ -1,0 +1,28 @@
+/* h1 {
+    color: blue;
+}
+
+p {
+    background-color: orange;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head1 {
+    color: blue;
+}
+
+.head2 {
+    color: red;
+}
+
+#main {
+    background-color: yellow;
+}
+
+#sub {
+    background-color: blueviolet;
+}

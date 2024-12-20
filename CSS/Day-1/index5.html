@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>More about the advance selector</title>
+    <style>
+      h3 + p {
+        background-color: orange;
+      }
+
+      div > li {
+        background-color: orange;
+      }
+
+      /* p:active {
+        color: rebeccapurple;
+        background-color: yellow;
+      } */
+
+      /* p::before {
+        content: "😎";
+      }
+      p::after {
+        content: "😎";
+      } */
+
+      /* p::first-line {
+        font-size: 40px;
+      } */
+
+      p::first-letter {
+        font-size: 20px;
+        background-color: red;
+      }
+
+      p::selection {
+        background-color: yellow;
+        color: chocolate;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>What is your name</h3>
+    <p>I am good</p>
+
+    <h3>What is JS</h3>
+    <p>Js is a programming language</p>
+
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora,
+      nesciunt.
+    </p>
+
+    <div>
+      <li>Hello</li>
+      <li>Dosto</li>
+      <li>kaise</li>
+      <li>ho</li>
+      <li>sab</li>
+    </div>
+    <ul>
+      <li>Hello</li>
+      <li>good</li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet.</p>
+  </body>
+</html>
